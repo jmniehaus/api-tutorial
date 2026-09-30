@@ -1,0 +1,25 @@
+info:
+  name: Create new post
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{URL}}/posts"
+  body:
+    type: json
+    data: |-
+      {
+        "title" : "new post title",
+        "content" : "new post content",
+        "deeznuts" : 2
+      }
+  auth:
+    type: bearer
+    token: "{{JWT}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
