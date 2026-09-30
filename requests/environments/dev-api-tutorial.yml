@@ -2,5 +2,5 @@ name: dev-api-tutorial
 variables:
   - name: URL
     value: http://127.0.0.1:8000
-  - name: JWT
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3OTA3ODYwMTR9.BF8U5R128Cim0Eucz25hbI4C9XMs1YzNSSM13KIvfIs
+  - secret: true
+    name: JWT

@@ -10,7 +10,7 @@ http:
     type: form-urlencoded
     data:
       - name: username
-        value: ohmytest@yahoo.com
+        value: mctesty@yahoo.com
       - name: password
         value: mypass123
   auth: inherit
@@ -25,4 +25,3 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
-​
